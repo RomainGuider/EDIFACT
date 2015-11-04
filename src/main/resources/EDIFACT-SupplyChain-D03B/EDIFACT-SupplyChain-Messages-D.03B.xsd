@@ -46,7 +46,7 @@
     </xsd:appinfo>
   </xsd:annotation>
   
-  <xsd:element ibmSchExtn:docRoot="true" name="Interchange">
+  <xsd:element ibmSchExtn:docRoot="true" name="Interchange" dfdl:lengthKind="implicit">
     <xsd:annotation>
       <xsd:documentation>
         EDI messages for the industry SupplyChain-GitHub
