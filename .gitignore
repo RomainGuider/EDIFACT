@@ -1,5 +1,9 @@
-/bin/
-/target/
-hs_err*.log
+bin/
+target/
+.cache*
+.cache
 *~
-/.cache-*
+hs*.log
+lib_managed/
+src_managed/
+resource_managed/
