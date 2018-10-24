@@ -32,8 +32,8 @@ package EDIFACT
  * SOFTWARE.
  */
 
-// import org.junit.Test
-import edu.illinois.ncsa.daffodil.tdml.Runner
+import org.junit.Test
+import org.apache.daffodil.tdml.Runner
 
 class TestEDIFACT {
 
@@ -50,8 +50,8 @@ class TestEDIFACT {
    * Compiling this schema also requires LOTS of memory on Daffodil.
    * E.g., java option -Xmx8G gives 8 gig which seems to work.
    */
-  //  @Test def test_edifact1() = {
-  //     runner.runOneTest("edifact1")
-  //  }
+    @Test def test_edifact1() = {
+       runner.runOneTest("edifact1")
+    }
 
 }

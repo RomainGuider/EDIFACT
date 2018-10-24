@@ -57,9 +57,9 @@
 		<dfdl:defineVariable defaultValue="." name="DecimalSep" type="xsd:string"/> 
     	
       <dfdl:defineFormat name="EDIFormat">
-        <dfdl:format encoding="{$dfdl:encoding}"
+        <dfdl:format encoding="iso-8859-1"
                      ignoreCase="yes"
-                     byteOrder="{$dfdl:byteOrder}"
+                     byteOrder="bigEndian"
                      representation="text"
                      textStringJustification="left"
                      truncateSpecifiedLengthString="no"
@@ -114,7 +114,8 @@
                      textBidi="no"
                      nilKind="literalValue"
                      useNilForDefault="no"
-                     floating="no">
+                     floating="no"
+                     binaryNumberRep="binary">
         </dfdl:format>
       </dfdl:defineFormat>
 	  
